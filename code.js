@@ -36,7 +36,7 @@ function fillNull (mas) { // подставляем нолик рандомно 
 		}
 		mas[i] = 2; // 2 это значение O;
 		// появляется изображение
-		document.getElementById(i).className = 'computer';
+		document.getElementById(i).getElementsByClassName('computer');
 	}
 	else { alert ('Draw!')}
 	
@@ -46,7 +46,7 @@ function myClick (id) {
 	if (mas[id] === 0) {
 		mas[id] = 1; // это значение Х; 
 		// появляется изображение
-		document.getElementById(id).className = 'player';
+		document.getElementById(id).getElementsByClassName('player');
 		if (check1(mas)) { alert ('You won!');}
 		fillNull (mas);
 		if (check2(mas)) {alert ('You lost');} 
