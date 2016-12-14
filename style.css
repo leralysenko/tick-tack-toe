@@ -7,10 +7,13 @@ div {
 
 }
 
+.ex {
+
+}
 .player {
-	background-image: : url('./img/krest.png');
+	background-image: url('./img/krest.png');
 }
 
 .computer {
-	background-image: : url('./img/null.png');
+	background-image: url('./img/null.png');
 }
