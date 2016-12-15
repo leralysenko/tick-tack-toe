@@ -45,7 +45,7 @@ function fillNull (mas, id) { // подставляем нолик рандом�
 		id = "d"+j.toString();
 		document.getElementById(id).className = 'computer';
 	}
-	else { alert ('Draw!')}
+	else { alert ('Draw!'); window.location.reload();}
 	
 }
 
@@ -54,9 +54,9 @@ function myClick (i, id) {
 		mas[i] = 1; // это значение Х; 
 		// появляется изображение
 		document.getElementById(id).className = 'player';
-		if (check1(mas)===true) { alert('You won!')}
+		if (check1(mas)===true) { alert('You won!'); window.location.reload();}
 		fillNull (mas, id);
-		//if (check2(mas)) {alert('You lost!')} 
+		if (check2(mas)) {alert('You lost!'); window.location.reload();} 
 	}
 
 }
