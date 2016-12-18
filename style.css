@@ -1,19 +1,74 @@
 div {
-	display: inline-block;
+	
 	margin: 0px 0px 0px 0px;
 	width: 100px;
 	height: 100px;
-	border: 1px solid black;
-
+	float: left;
 }
 
-.ex {
-
+body {
+	background-image: url('./img/885997.jpg');
 }
+
+.divClear {
+	width: 0px;
+	height: 0px;
+	border: 0px;
+	clear: both;
+}
+#d0 {
+	border-right: 6px solid blue;
+	border-bottom: 6px solid blue;
+}
+#d1 {
+	border-right: 6px solid blue;
+	border-bottom: 6px solid blue;
+	border-left: 6px solid blue;
+}
+#d2 {
+	border-left: 6px solid blue;
+	border-bottom: 6px solid blue;
+}
+
+#d3 {
+	border-right: 6px solid blue;
+	border-bottom: 6px solid blue;
+	border-top: 6px solid blue;
+}
+#d4 {
+	border-right: 6px solid blue;
+	border-bottom: 6px solid blue;
+	border-top: 6px solid blue;
+	border-left: 6px solid blue;
+}
+#d5 {
+	border-left: 6px solid blue;
+	border-bottom: 6px solid blue;
+	border-top: 6px solid blue;
+}
+#d6 {
+	border-right: 6px solid blue;
+	border-top: 6px solid blue;
+}
+#d7 {
+	border-right: 6px solid blue;
+	border-top: 6px solid blue;
+	border-left: 6px solid blue;
+}
+#d8 {
+	border-left: 6px solid blue;
+	border-top: 6px solid blue;
+}
+
 .player {
 	background-image: url('./img/krest.png');
 }
 
 .computer {
 	background-image: url('./img/null.png');
+}
+
+.forname {
+	width :400px;
+	text-align: center; 
 }
