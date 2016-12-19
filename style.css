@@ -9,6 +9,9 @@ div {
 body {
 	background-image: url('./img/885997.jpg');
 }
+.body2 {
+	background-image: none;
+}
 
 .divClear {
 	width: 0px;
@@ -16,6 +19,7 @@ body {
 	border: 0px;
 	clear: both;
 }
+
 #d0 {
 	border-right: 6px solid blue;
 	border-bottom: 6px solid blue;
@@ -68,7 +72,35 @@ body {
 	background-image: url('./img/null.png');
 }
 
-.forname {
-	width :400px;
-	text-align: center; 
+.div1FirstPage {
+	position: fixed;
+	top: 0;
+  	left: 0;
+	min-height: 100%;
+	width: 50%;
+	background-color: blue;
+	opacity: 0.7;
+	text-align: center;
+}
+.div1FirstPage:hover {
+    opacity: 0.5; 
+   } 
+.div2FirstPage {
+	position: fixed;
+	top: 0;
+  	left: 50%;
+	height: 100%;
+	width: 50%;
+	background-color: red;
+	opacity: 0.7;
+	text-align: center;
+}
+.div2FirstPage:hover {
+    opacity: 0.5; 
+}
+
+a {
+	text-decoration: none;
+	font-size: 110px;
+	color: black;
 }
